@@ -15,3 +15,8 @@ https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/
 
 Based on differing budgets, what would be considered an affordable home?
   - Affordable being over or under $51,949 (average salary in Iowa)
+  
+Depending on your budget, what are your options as a couple versus a small family?
+  - a couple may want a 1 bed 1 bath versus 2 bed 2 bath
+  
+  
