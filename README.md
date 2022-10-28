@@ -2,21 +2,28 @@
 
 ## Selected topic
 
+Predicting Home Prices 
 
-##  Reason why they selected their topic
+##  Reason we selected the topic
 
-  - With the housing market being a hot topic nowadays, we want to see if someone were to saving up to buy a home, would buying a house in Ames, Iowa be a good option for them?
+We want to investigate how different home features affect the price of a home in Ames, Iowa. The main features we would like to analyze would be:
+  - number of bedrooms and bathrooms
+  - year built
+  - square footage 
+  - if the home has heating/central air
+  - if the home has a garage, and how many cars can fit in it
+  - distance from a major road in the town
   
-##  Description of their source of data
+##  Description of our source of data
 
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 
-## Questions they hope to answer with
+## Questions we hope to answer with the data
 
-Based on differing budgets, what would be considered an affordable home?
-  - Affordable being over or under $51,949 (average salary in Iowa)
+  - Based on key home features, how accurately can we predict the cost of a home?
+  - 
+
   
-Depending on your budget, what are your options as a couple versus a small family?
-  - a couple may want a 1 bed 1 bath versus 2 bed 2 bath
+
   
   
