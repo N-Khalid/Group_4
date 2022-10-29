@@ -28,7 +28,7 @@ https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/
   
 ## First Segment Deliverable
 
-For the first segment of the final project, we created an initial presentation that details the main focus of our project, and our plans to work with the data. We also listed the main questions that we would like to answer as we work through the datset. The README was updated with this draft, as seen below: 
+For the first segment of the final project, we created an initial presentation that details the main focus of our project, and our plans to work with the data. We also listed the main questions that we would like to answer as we work through the dataset. The README was updated with this draft, as seen below: 
 
 ![Screen Shot 2022-10-27 at 8.19.38 PM.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Screen%20Shot%202022-10-27%20at%208.19.38%20PM.png)
 
