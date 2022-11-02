@@ -48,7 +48,9 @@ The model we decided to use is a multiple linear regression model. We decided to
 
 Limitations: 
 
-- The size of the dataset can skew the analysis. If there are only a few datapoints, we may conclude that influence 
+- The size of the dataset can skew the analysis. If there are only a few datapoints, we may conclude that the weight of certain variables may be higher or lower than they really are. 
+
+- Incomplete data can make us conclude things strictly based on whats presented in the dataset. If certain variables with high correlation are absent from the dataset meanwhile low correlation variables are present, we may conclude that our target value may be higher or lower than it really is.
 
 Benefits: 
 
