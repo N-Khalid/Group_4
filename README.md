@@ -38,6 +38,10 @@ The goal of data preprocessing is to change our initial dataset into a cleaner d
     
 ###  Preliminary Feature Engineering
 
+- We rated each independent variable on a scale between 0-1 based on correlation to the target variable 
+- We dropped the lower correlated values equal or under 0.4 correlation
+- 
+
 ### Splitting the Data
 
 The dataset came prepared two datasets labeled for test and train for convienience. When splitting the train dataset we chose the sale price as the target (X) variable and the remainder of the dataset as the independent (y) variables.   
