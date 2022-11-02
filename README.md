@@ -40,7 +40,6 @@ The goal of data preprocessing is to change our initial dataset into a cleaner d
 
 - We rated each independent variable on a scale between 0-1 based on correlation to the target variable 
 - We dropped the lower correlated values equal or under 0.4 correlation
-- 
 
 ### Splitting the Data
 
