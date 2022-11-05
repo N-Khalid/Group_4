@@ -12,6 +12,8 @@ https://docs.google.com/presentation/d/e/2PACX-1vSmhfjixnMhFml-mH13Zp4ne5ZOoxOdd
 ## Dashboard
 https://docs.google.com/presentation/d/e/2PACX-1vTXd4wJ7JITYHxGvTGGFZeDHbpQzvG_IWA8HrrYj6SVFQLzqA6ij90D6u10Y286R2SRclUWwWQsFZ_h/pub?start=false&loop=false&delayms=3000
 
+![Dashboard.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Dashboard.png)
+
 ##  Reason we selected the topic
 
 We want to investigate how different home features affect the price of a home in Ames, Iowa. The main features we would like to analyze would be:
@@ -55,6 +57,8 @@ The dataset came prepared two datasets labeled for test and train for convienien
 
 The model we decided to use is a multiple linear regression model. We decided to go with a supervised machine learning model because we are trying to predict a known dependent variable (sale price) with various independent variables that can all effect the sale price (lot size, type of road access to the property, year built, heating, central air, full bath, half bath, bedrooms, total rooms and garage size)
 
+![Multiple_Linear_Regression.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Multiple_Linear_Regression.png)
+
 Limitations: 
 
 - The size of the dataset can skew the analysis. If there are only a few datapoints, we may conclude that the weight of certain variables may be higher or lower than they really are. 
@@ -65,6 +69,13 @@ Benefits:
 - We are able to identify the correlation between of one or more variables to our target variable and exactly how much each independent variable influences it.
 - We are able to identify the outliers in our dataset. When we use this model we can see certain variables may not have as much influences as one may have thought and can potentially remove them. We can also find out that certain target variables may or may not be influenced the same way as other similar target variables.
 
+# Database Integration
+
+![Database_Connection.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Database_Connection.png)
+
+![uickDBD.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/QuickDBD.png)
+
+![ERD.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/main/ERD.png)
 
 ## First Segment Deliverable
 
