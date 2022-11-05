@@ -64,3 +64,19 @@ Benefits:
 
 - We are able to identify the correlation between of one or more variables to our target variable and exactly how much each independent variable influences it.
 - We are able to identify the outliers in our dataset. When we use this model we can see certain variables may not have as much influences as one may have thought and can potentially remove them. We can also find out that certain target variables may or may not be influenced the same way as other similar target variables.
+
+
+## First Segment Deliverable
+
+For the first segment of the final project, we created an initial presentation that details the main focus of our project, and our plans to work with the data. We also listed the main questions that we would like to answer as we work through the dataset. The README was updated with this draft, as seen below: 
+
+![Initial_GitHub_Setup.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Initial_GitHub_Setup.png)
+
+For our initial GitHub setup, we created four branches for each of the team members, and assigned our roles. The branches were named with the respective roles to create a space for each team member's work. 
+
+![GitHub_Branches.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/GitHub_Branches.png)
+
+
+## Second Segment Deliverable 
+
+As we continued to work on the project, the machine learning model and database integration were further developed. The GitHub branches were updated by each respective team meber,and production-ready code was pulled into the main branch. The presentation was also drafted, where we have detailed our thought process to provide insight to our model choice and analysis. 
