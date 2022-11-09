@@ -34,20 +34,24 @@ https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/
   
 ##  Machine Learning
 
-We chose a supervised machine learningg model in order to help us predict the sale price, a known dependent variable, against several different house features, the independent variables. 
+We chose a supervised machine learning model in order to help us predict the sale price, a known dependent variable, against several different house features, the independent variables. 
 
 ###  Preliminary Data Preprocessing
 
 The goal of data preprocessing is to change our initial dataset into a cleaner dataset to assist in answering our questions. Our data preprocessing process is as follows:
 
 - Make a copy of our initial dataset to use as the working dataset
-- Identify what our dependent and independent variables will be
-- Check if there are missing values or values that do not make sense within context of the dataset (ex. 0 or N/A for number of beds or bathrooms)
+- Familiarize ourselves with the data by identifying data types for each column
+- Identify what our dependent (SalePrice) and independent variables will be
+- Find the correlation between each of our independent variables and the sale price
+- Check for columns with null data and comparing them to the other variables to help decide what we will do (outright remove or use an average of the variable)
+
     
 ###  Preliminary Feature Engineering
 
-- We rated each independent variable on a scale between 0-1 based on correlation to the target variable 
-- We dropped the lower correlated values equal or under 0.4 correlation
+We chose to drop all variables missing 5% or more of their data which lead to us removing 11 variables
+-	(PoolQC, MiscFeature, Alley, Fence, FireplaceQu, LotFrontage, GarageYrBlt, GarageCond, GarageType, GarageFinish, GarageQual)
+- This left us with 79 variables in total. We don't want to be heavy handed when dropping features due to information being left out where we may come to an incorrect decision based on the data presented. On the other side, due to the amount of variables, we do want to remove some features due to overfitting the model. We want our model to be able to generalize and predict rather than have as perfect data as possible which would hinder our results.
 
 ### Splitting the Data
 
