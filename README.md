@@ -79,17 +79,13 @@ Our data came with train and test data already available. We trained our model b
 
 ### Model Matrix and Accuracy Scores
 
-Since we used a multiple linear regression model instead of a classification model, confusion matrix and final accuracy scores are not able to used. Instead we decided to use three other measures of error: mean squared error, mean absolute error and root mean-square deviation.
+Since we used a multiple linear regression model instead of a classification model, confusion matrix and final accuracy scores are not able to used. Instead we decided to use three other measures of accuracy/error: mean squared error, mean absolute error and root mean-square deviation.
 
-Mean squared error-The mean squared error determines if our model predicts outliers with large errors. The lower the better 
+Mean squared error (MSE) - The mean squared error determines if our model predicts outliers with large errors. Typically the MSE is compared between models to see how accurate they are between 0-1 scores. While we want a lower value, we do not want our MSE to be 0 as that would mean our model perfectly predicts our training data which is a sign of overfitting. Our MSE is 0.138.
 
+Mean absolute error (MAE) - Mean Absolute Error is the average of absolute errors so we want this value to be quite low as a good model will give minimal errors but not 0 errors. Our MAE is 0.237.
 
-
-Mean absolute error - Mean Absolute Error is the average of absoulte errors so we want this value to be as low as possible as a good model will give minimal errors. Our MAE
-
-Mean Absolute Error is nothing but the mean of absolute errors. Thus, MAE gives the average amount of error. So, the machine learning model with minimum MAE should be considered as a good model since it is giving minimum error
-
-Root mean-squre deviation - 
+Root mean-square deviation (RMSE) - RSME is the standard deviation of our prediction compared to the the regression/best fit line. Like our previous measures, we want our RSME to be low but not perfect. Our RMSE 0.372
 
 ### Answering Our Main Question
 
@@ -100,7 +96,6 @@ Root mean-squre deviation -
 ![uickDBD.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/QuickDBD.png)
 
 ![ERD.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/main/ERD.png)
-
 
 
 ## First Segment Deliverable
