@@ -7,10 +7,10 @@
 * Software: Python 3.9.12, Jupyter Notebook 6.4.8, PgAdmin4 v6.8, https://app.quickdatabasediagrams.com/, Tableau, GitHub, Slack, VSCode v1.72.2
 
 ## Presentation
-https://docs.google.com/presentation/d/e/2PACX-1vSmhfjixnMhFml-mH13Zp4ne5ZOoxOddiR3BigVnAtuqpHSYJfAzXmnFa1m2vh6y-5X4e9xEgmFkEjq/pub?start=false&loop=false&delayms=3000
+[Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSmhfjixnMhFml-mH13Zp4ne5ZOoxOddiR3BigVnAtuqpHSYJfAzXmnFa1m2vh6y-5X4e9xEgmFkEjq/pub?start=false&loop=false&delayms=3000)
 
 ## Dashboard
-https://docs.google.com/presentation/d/e/2PACX-1vTXd4wJ7JITYHxGvTGGFZeDHbpQzvG_IWA8HrrYj6SVFQLzqA6ij90D6u10Y286R2SRclUWwWQsFZ_h/pub?start=false&loop=false&delayms=3000
+[Dashboard](https://docs.google.com/presentation/d/e/2PACX-1vTXd4wJ7JITYHxGvTGGFZeDHbpQzvG_IWA8HrrYj6SVFQLzqA6ij90D6u10Y286R2SRclUWwWQsFZ_h/pub?start=false&loop=false&delayms=3000)
 
 ![Dashboard.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Dashboard.png)
 
@@ -79,7 +79,17 @@ Our data came with train and test data already available. We trained our model b
 
 ### Model Matrix and Accuracy Scores
 
-Since we used a multiple linear regression model instead of a classification model, confusion matrix and final accuracy scores are not able to used. Instead we decided to use three other measures of error: mean absolute error, mean squared error and root mean-square deviation.
+Since we used a multiple linear regression model instead of a classification model, confusion matrix and final accuracy scores are not able to used. Instead we decided to use three other measures of error: mean squared error, mean absolute error and root mean-square deviation.
+
+Mean squared error-The mean squared error determines if our model predicts outliers with large errors. The lower the better 
+
+
+
+Mean absolute error - Mean Absolute Error is the average of absoulte errors so we want this value to be as low as possible as a good model will give minimal errors. Our MAE
+
+Mean Absolute Error is nothing but the mean of absolute errors. Thus, MAE gives the average amount of error. So, the machine learning model with minimum MAE should be considered as a good model since it is giving minimum error
+
+Root mean-squre deviation - 
 
 ### Answering Our Main Question
 
