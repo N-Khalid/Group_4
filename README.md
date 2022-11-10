@@ -77,6 +77,8 @@ Benefits:
 
 Our data came with train and test data already available. We trained our model by using the train dataset and splitting it into X_train, X_test, y_train and y_test. We reshaped and fit our split ensure we keep the same amount of columns between the two by using .reshape in the NumPy and sklearn libraries. 
 
+We retrained our linear regression model with the LightGBM gradient boosting framework created by Microsoft. When comparing our measures of accuracy before and after retraining, we found using this framework helped lower the errors our model found.
+
 ### Model Matrix and Accuracy Scores
 
 Since we used a multiple linear regression model instead of a classification model, confusion matrix and final accuracy scores are not able to used. Instead we decided to use three other measures of accuracy/error: mean squared error, mean absolute error and root mean-square deviation.
