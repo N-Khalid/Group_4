@@ -36,7 +36,7 @@ https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/
 
 We chose a supervised machine learning model in order to help us predict the sale price, a known dependent variable, against several different house features, the independent variables. 
 
-###  Preliminary Data Preprocessing
+### Data Preprocessing
 
 The goal of data preprocessing is to change our initial dataset into a cleaner dataset to assist in answering our questions. Our data preprocessing process is as follows:
 
@@ -47,7 +47,7 @@ The goal of data preprocessing is to change our initial dataset into a cleaner d
 - Check for columns with null data and comparing them to the other variables to help decide what we will do (outright remove or use an average of the variable)
 
     
-###  Preliminary Feature Engineering
+### Feature Engineering
 
 We chose to drop all variables missing 5% or more of their data which lead to us removing 11 variables
 -	(PoolQC, MiscFeature, Alley, Fence, FireplaceQu, LotFrontage, GarageYrBlt, GarageCond, GarageType, GarageFinish, GarageQual)
@@ -59,7 +59,7 @@ The dataset came prepared two datasets labeled for test and train for convienien
 
 ###  Model Choice
 
-The model we decided to use is a multiple linear regression model. We decided to go with a supervised machine learning model because we are trying to predict a known dependent variable (sale price) with various independent variables that can all effect the sale price (lot size, type of road access to the property, year built, heating, central air, full bath, half bath, bedrooms, total rooms and garage size)
+The model we decided to use is a multiple linear regression model. We decided to go with a supervised machine learning model because we are trying to predict a known dependent variable (sale price) with various independent variables that can all effect the sale price (lot size, type of road access to the property, year built, heating, central air, full bath, half bath, bedrooms, total rooms and garage size). When drafting our model, we did not change the type of model we decided on between segments 2 and 3.
 
 ![Multiple_Linear_Regression.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Multiple_Linear_Regression.png)
 
@@ -73,6 +73,16 @@ Benefits:
 - We are able to identify the correlation between of one or more variables to our target variable and exactly how much each independent variable influences it.
 - We are able to identify the outliers in our dataset. When we use this model we can see certain variables may not have as much influences as one may have thought and can potentially remove them. We can also find out that certain target variables may or may not be influenced the same way as other similar target variables.
 
+### Model Training
+
+Our data came with train and test data already available. We trained our model by using the train dataset and splitting it into X_train, X_test, y_train and y_test. We reshaped and fit our split ensure we keep the same amount of columns between the two by using .reshape in the NumPy and sklearn libraries. 
+
+### Model Matrix and Accuracy Scores
+
+Since we used a multiple linear regression model instead of a classification model, confusion matrix and final accuracy scores are not able to used. Instead we decided to use three other measures of error: mean absolute error, mean squared error and root mean-square deviation.
+
+### Answering Our Main Question
+
 # Database Integration
 
 ![Database_Connection.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Database_Connection.png)
@@ -80,6 +90,8 @@ Benefits:
 ![uickDBD.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/QuickDBD.png)
 
 ![ERD.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/main/ERD.png)
+
+
 
 ## First Segment Deliverable
 
