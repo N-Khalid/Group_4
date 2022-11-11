@@ -12,3 +12,4 @@ For our initial GitHub setup, we created four branches for each of the team memb
 ## Second Segment Deliverable 
 
 As we continued to work on the project, the machine learning model and database integration were further developed. The GitHub branches were updated by each respective team meber,and production-ready code was pulled into the main branch. The presentation was also drafted, where we have detailed our thought process to provide insight to our model choice and analysis. 
+
