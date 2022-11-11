@@ -1,0 +1,18 @@
+# Importing libraries
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+from pathlib import Path
+from sklearn.model_selection import train_test_split
+from sklearn import metrics
+import seaborn as sns
+from scipy import stats
+from scipy.stats import norm
+from scipy.stats import skew
+import lightgbm as lgb
+
+
+Data Sources: test.csv, train.csv, data_description.txt
+
+Software: Python 3.9.12, Jupyter Notebook 6.4.8, PgAdmin4 v6.8, https://app.quickdatabasediagrams.com/, Tableau, GitHub, Slack, VSCode v1.72.2
