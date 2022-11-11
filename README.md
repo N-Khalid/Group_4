@@ -91,6 +91,28 @@ Root mean-square deviation (RMSE) - RSME is the standard deviation of our predic
 
 ### Answering Our Main Question
 
+Question 1 - Based on key home features, how accurately can we predict the cost of a home? 
+
+- Based on our accuracy measures, we are able to closely predict the cost of a home based on over 60 seperate individual variables.
+
+Question 2 - Which feature affects the cost the most? What feature affects the cost the least?
+ 
+Most:
+
+1. OverallQual: Rating of the overall material and finish of the house
+2. GrLivArea: Above grade (ground) living area square feet      
+3. GarageCars: Size of garage in car capacity      
+4. GarageArea: Size of garage in square feet      
+5. TotalBsmtSF: Total square feet of basement area     
+
+Least:
+
+1. BedroomAbvGr: Total rooms above grade (does not include bathrooms)
+2. ScreenPorch: Screen porch area in square feet
+3. PoolArea: Pool area in square feet
+4. MoSold: Month Sold           
+5. 3SsnPorch: Three season porch area in square feet     
+
 # Database Integration
 
 ![Database_Connection.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Database_Connection.png)
