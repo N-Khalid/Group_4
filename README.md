@@ -83,11 +83,11 @@ We retrained our linear regression model with the LightGBM gradient boosting fra
 
 Since we used a multiple linear regression model instead of a classification model, confusion matrix and final accuracy scores are not able to used. Instead we decided to use three other measures of accuracy/error: mean squared error, mean absolute error and root mean-square deviation.
 
-Mean squared error (MSE) - The mean squared error determines if our model predicts outliers with large errors. Typically the MSE is compared between models to see how accurate they are between 0-1 scores. While we want a lower value, we do not want our MSE to be 0 as that would mean our model perfectly predicts our training data which is a sign of overfitting. Our MSE is 0.138.
+Mean squared error (MSE) - The mean squared error determines if our model predicts outliers with large errors. Typically the MSE is compared between models to see how accurate they are between 0-1 scores. While we want a lower value, we do not want our MSE to be 0 as that would mean our model perfectly predicts our training data which is a sign of overfitting. Our MSE is 0.177.
 
-Mean absolute error (MAE) - Mean Absolute Error is the average of absolute errors so we want this value to be quite low as a good model will give minimal errors but not 0 errors. Our MAE is 0.237.
+Mean absolute error (MAE) - Mean Absolute Error is the average of absolute errors so we want this value to be quite low as a good model will give minimal errors but not 0 errors. Our MAE is 0.264.
 
-Root mean-square deviation (RMSE) - RSME is the standard deviation of our prediction compared to the the regression/best fit line. Like our previous measures, we want our RSME to be low but not perfect. Our RMSE 0.372
+Root mean-square deviation (RMSE) - RSME is the standard deviation of our prediction compared to the the regression/best fit line. Like our previous measures, we want our RSME to be low but not perfect. Our RMSE 0.421
 
 ### Answering Our Main Question
 
