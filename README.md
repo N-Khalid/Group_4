@@ -14,6 +14,8 @@
 
 ![Dashboard.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Dashboard.png)
 
+https://public.tableau.com/views/IowaReal-estateAnalysis/InteractiveDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
 ##  Reason we selected the topic
 
 We want to investigate how different home features affect the price of a home in Ames, Iowa. The main features we would like to analyze would be:
