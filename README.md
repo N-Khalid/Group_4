@@ -6,3 +6,4 @@
 https://docs.google.com/presentation/d/e/2PACX-1vSmhfjixnMhFml-mH13Zp4ne5ZOoxOddiR3BigVnAtuqpHSYJfAzXmnFa1m2vh6y-5X4e9xEgmFkEjq/pub?start=false&loop=false&delayms=3000
 ## Dashboard
 https://docs.google.com/presentation/d/e/2PACX-1vTXd4wJ7JITYHxGvTGGFZeDHbpQzvG_IWA8HrrYj6SVFQLzqA6ij90D6u10Y286R2SRclUWwWQsFZ_h/pub?start=false&loop=false&delayms=3000
+https://public.tableau.com/views/IowaReal-estateAnalysis/InteractiveDashboard?:language=en-US&:display_count=n&:origin=viz_share_link
