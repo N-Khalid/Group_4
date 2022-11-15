@@ -113,11 +113,3 @@ Least:
 3. PoolArea: Pool area in square feet
 4. MoSold: Month Sold           
 5. 3SsnPorch: Three season porch area in square feet     
-
-# Database Integration
-
-![Database_Connection.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/Database_Connection.png)
-
-![uickDBD.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/Simran---Square-1/QuickDBD.png)
-
-![ERD.png](https://github.com/N-Khalid/Predicting-Home-Prices/blob/main/ERD.png)
