@@ -63,6 +63,8 @@ We chose to drop all variables missing 5% or more of their data which lead to us
 -	(PoolQC, MiscFeature, Alley, Fence, FireplaceQu, LotFrontage, GarageYrBlt, GarageCond, GarageType, GarageFinish, GarageQual)
 - This left us with 79 variables in total. We don't want to be heavy handed when dropping features due to information being left out where we may come to an incorrect decision based on the data presented. On the other side, due to the amount of variables, we do want to remove some features due to overfitting the model. We want our model to be able to generalize and predict rather than have as perfect data as possible which would hinder our results.
 
+We decided to keep all the remaining 79 variables instead of dropping some of the lower correlated values because if someone were to utilize our model, they may place more importance on certain variables versus others when purchasing or selling a home. 
+
 ### Splitting the Data
 
 The dataset came prepared two datasets labeled for test and train for convienience. When splitting the train dataset we chose the sale price as the target (X) variable and the remainder of the dataset as the independent (y) variables.   
