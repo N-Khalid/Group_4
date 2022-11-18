@@ -9,21 +9,6 @@
 ## Presentation
 [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vSmhfjixnMhFml-mH13Zp4ne5ZOoxOddiR3BigVnAtuqpHSYJfAzXmnFa1m2vh6y-5X4e9xEgmFkEjq/pub?start=false&loop=false&delayms=3000)
 
-## Dashboard
-
-<div class='tableauPlaceholder' id='viz1668566007092' style='position: relative'><noscript><a href='#'><img alt='Interactive Story ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Io&#47;IowaReal-estateAnalysis&#47;InteractiveStory&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='IowaReal-estateAnalysis&#47;InteractiveStory' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Io&#47;IowaReal-estateAnalysis&#47;InteractiveStory&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
-
-## Dashboard Link
-https://public.tableau.com/views/IowaReal-estateAnalysis/InteractiveStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
-
-## Interactive Dashboard Part 1
-In the first Dashboard we created a Histogram of the average sale price for homes in Ames, Iowa. It shows that most homes sold for around $127,000. We set a neighborhood filter so you can see what the pricing is like per neighborhood. This would be useful information to know if you are buying or selling. The graph below it shows the impact that Masonry Vaneer area and age has on the cost of the home. Overall  the newer the home or the larger surface area of a Vaneer type relates to a higher sale price.
-## Interactive Dashboard Part 2
-For the 2nd Dashboard the first graph on top compared the Average Lot Area to the Average Sale Price. We added the Central Air as a filter because we wanted to see if it would have an effect on pricing. Smaller lot size is definitely correlated with a lower price and though some homes without central air sold for more than homes with central air none of the homes without central air sold for more than the average price. The 2nd graph compares the average overall quality of the home compared to the average sale price. We added in the Heating filter to see if the type of heating a home used had an effect on the price. Homes without a central heating system had a lower quality score and sold for less on average. In this section of the story we added another Neighborhood filter as well as a Heating Quality and Condition Filter and Average Overall Quality filter. The most interesting part of the Heating and Quality Condition Filter is that there are homes that score excellent on this but do not have a Central Air system. This shows that heating is overall more important than central air.
-## Interactive Dashboard Part 3
-For the 3rd Dashboard we compared Overall Quality, Year Built, and Full Bath to Average Sale Price. For the Overall Quality to Average Sale Price I added in the Garage Cars filter. The garage cars filter shows the number of cars the garages a house has can fit. Unsurprisingly the homes that have more car spots tend to sell for more. We added the Garage Condition and Garage Type filters to be crossed with all graphs along with Neighborhood as well. Overall newer homes sold for more and homes with a higher overall quality score also sold for more. Homes that had more full and half baths sold for more than homes with fewer.
-
-
 ##  Reason we selected the topic
 
 We want to investigate how different home features affect the price of a home in Ames, Iowa. The main features we would like to analyze would be:
@@ -56,7 +41,6 @@ The goal of data preprocessing is to change our initial dataset into a cleaner d
 - Find the correlation between each of our independent variables and the sale price
 - Check for columns with null data and comparing them to the other variables to help decide what we will do (outright remove or use an average of the variable)
 
-    
 ### Feature Engineering
 
 We chose to drop all variables missing 5% or more of their data which lead to us removing 11 variables
@@ -101,7 +85,21 @@ Mean absolute error (MAE) - Mean Absolute Error is the average of absolute error
 
 Root mean-square deviation (RMSE) - RSME is the standard deviation of our prediction compared to the the regression/best fit line. Like our previous measures, we want our RSME to be low but not perfect. Our RMSE 0.421
 
-### Answering Our Main Question
+## Dashboard
+
+<div class='tableauPlaceholder' id='viz1668566007092' style='position: relative'><noscript><a href='#'><img alt='Interactive Story ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Io&#47;IowaReal-estateAnalysis&#47;InteractiveStory&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='IowaReal-estateAnalysis&#47;InteractiveStory' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Io&#47;IowaReal-estateAnalysis&#47;InteractiveStory&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
+
+## Dashboard Link
+https://public.tableau.com/views/IowaReal-estateAnalysis/InteractiveStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+## Interactive Dashboard Part 1
+In the first Dashboard we created a Histogram of the average sale price for homes in Ames, Iowa. It shows that most homes sold for around $127,000. We set a neighborhood filter so you can see what the pricing is like per neighborhood. This would be useful information to know if you are buying or selling. The graph below it shows the impact that Masonry Vaneer area and age has on the cost of the home. Overall  the newer the home or the larger surface area of a Vaneer type relates to a higher sale price.
+## Interactive Dashboard Part 2
+For the 2nd Dashboard the first graph on top compared the Average Lot Area to the Average Sale Price. We added the Central Air as a filter because we wanted to see if it would have an effect on pricing. Smaller lot size is definitely correlated with a lower price and though some homes without central air sold for more than homes with central air none of the homes without central air sold for more than the average price. The 2nd graph compares the average overall quality of the home compared to the average sale price. We added in the Heating filter to see if the type of heating a home used had an effect on the price. Homes without a central heating system had a lower quality score and sold for less on average. In this section of the story we added another Neighborhood filter as well as a Heating Quality and Condition Filter and Average Overall Quality filter. The most interesting part of the Heating and Quality Condition Filter is that there are homes that score excellent on this but do not have a Central Air system. This shows that heating is overall more important than central air.
+## Interactive Dashboard Part 3
+For the 3rd Dashboard we compared Overall Quality, Year Built, and Full Bath to Average Sale Price. For the Overall Quality to Average Sale Price I added in the Garage Cars filter. The garage cars filter shows the number of cars the garages a house has can fit. Unsurprisingly the homes that have more car spots tend to sell for more. We added the Garage Condition and Garage Type filters to be crossed with all graphs along with Neighborhood as well. Overall newer homes sold for more and homes with a higher overall quality score also sold for more. Homes that had more full and half baths sold for more than homes with fewer.
+
+## Answering Our Main Question
 
 Question 1 - Based on key home features, how accurately can we predict the cost of a home? 
 
